@@ -1,0 +1,99 @@
+baseurl: "http://www.gohugo.org"
+languageCode: "zh-CN"
+title: "Hugo中文文档"
+copyright: "Copyright © <a href=\"http://blog.coderzh.com/\">CoderZh</a> 2015."
+theme: "hugo-org"
+canonifyurls: true
+RSSUri: "feed.xml"
+MetaDataFormat: "yaml"
+hasCJKLanguage: true
+
+taxonomies:
+  tag: "tags"
+  category: "categories"
+  doc: "doc"
+
+menu:
+  home:
+    - Name: "文章列表"
+      Weight: 1
+      Identifier: "post"
+      URL: "/post/"
+    - Name: "皮肤列表"
+      Weight: 2
+      Identifier: "theme"
+      URL: "/theme/"
+    - Name: "示例网站"
+      Weight: 3
+      Identifier: "showcase"
+      URL: "/showcase/"
+    - Name: "关于"
+      Weight: 4
+      Identifier: "donate"
+      URL: "/donate/"
+  link:
+    - Name: "官方GitHub"
+      Weight: 1
+      Identifier: "hugo-github"
+      URL: "https://github.com/spf13/hugo"
+    - Name: "本站GitHub"
+      Weight: 2
+      Identifier: "hugo-org-github"
+      URL: "https://github.com/coderzh/gohugo.org"
+  doclink:
+    - Name: "英文文档"
+      Weight: 1
+      Identifier: "doc-en"
+      URL: "https://gohugo.io/overview/introduction/"
+    - Name: "中文文档"
+      Weight: 2
+      Identifier: "doc-cn"
+      URL: "/doc/"
+  main:
+    - Name: "快速开始"
+      Identifier: "getting started"
+      Weight: -100
+    - Name: "Hugo命令"
+      Identifier: "commands"
+      Weight: -95
+      URL: "/doc/commands/"
+    - Name: "内容(Content)"
+      Identifier: "content"
+      Weight: -90
+    - Name: "皮肤(Themes)"
+      Identifier: "themes"
+      Weight: -85
+    - Name: "模板(Templates)"
+      Identifier: "layout"
+      Weight: -80
+    - Name: "分类(Taxonomies)"
+      Identifier: "taxonomy"
+      Weight: -70
+    - Name: "其他"
+      Identifier: "extras"
+      Weight: -60
+    - Name: "工具"
+      Weight: -55
+      URL: "/doc/tools/"
+    - Name: "社区"
+      Identifier: "community"
+      Weight: -50
+    - Name: "指南"
+      Identifier: "tutorials"
+      Weight: -40
+    - Name: "讨论社区"
+      Parent: "community"
+      Weight: 150
+      URL: "http://discuss.gohugo.io"
+    - Name: "常见问题"
+      Identifier: "troubleshooting"
+      Weight: -30
+    - Name: "关于Hugo"
+      Identifier: "about"
+      Weight: -20
+
+params:
+  Keywords: "Hugo, 博客, 中文, 文档, 皮肤, 示例, 搭建, 教程, 部署"
+  Description: "Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。"
+  analytics: "UA-10147768-3"
+
