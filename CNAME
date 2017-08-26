@@ -1,0 +1,5 @@
+$ cd source/
+$ touch CNAME
+$ vim CNAME # caoxuemi.com
+$ git add CNAME
+$ git commit -m "add CNAME"
